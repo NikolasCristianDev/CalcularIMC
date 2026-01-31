@@ -1,12 +1,13 @@
 let valor = 0
 let imc = valor.toFixed(1)
-result.innerHTML = `${imc}`
 
 let inputMassa = document.getElementById("massa")
 let inputAltura = document.getElementById("altura")
 let btnCalc = document.querySelector(".btn")
 let result = document.querySelector(".IMC")
 let classificacao = document.querySelector(".resultt")
+
+result.innerHTML = `${imc}`
 
 function update(calc) {
     imc = calc
